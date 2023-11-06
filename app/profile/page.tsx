@@ -12,7 +12,7 @@ export default function Home() {
         <NavBarInsidePages text="Profile" />
         <div className=" w-full  mt-1">
           <div className="py-7 flex items-center justify-center bg-slate-100 -mx-5">
-            <div className="relative w-36 h-36  bg-purple rounded-[50%] p-2 flex items-center justify-center">
+            <div className="relative w-36 h-36  bg-primary-500 rounded-[50%] p-2 flex items-center justify-center">
               <p className="text-3xl text-white ">H</p>
               <div
                 onClick={() => setShouldEdit(true)}
@@ -48,7 +48,7 @@ export default function Home() {
       </div>
       {shouldEdit ? (
         <div className="fixed bottom-0 left-0 w-full  px-5 pb-6 pt-3">
-          <button className="bg-purple hover:bg-blue-700 w-full text-white font-bold py-4 px-4  rounded-full">
+          <button className="bg-primary-500 hover:bg-blue-700 w-full text-white font-bold py-4 px-4  rounded-full">
             Continue
           </button>
         </div>
