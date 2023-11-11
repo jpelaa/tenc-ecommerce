@@ -15,7 +15,7 @@ export default function Home() {
       <div className="w-full h-full py-6 px-5 bg-white">
         <NavBarInsidePages text="Checkout" />
         <div className="h-[60%] w-full  mt-1">
-          <div className="my-4 py-3  bg-purple rounded-[20px] text-center">
+          <div className="my-4 py-3  bg-primary-500 rounded-[20px] text-center">
             <p className="text-base  text-white">40% off</p>
             <p className="text-xs  text-white">
               Use code #appshark on checkout
@@ -59,7 +59,7 @@ export default function Home() {
                 className="bg-gray-50 border-2  py-3 border-gray-300  text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 pl-12"
                 placeholder=""
               />
-              <button className="text-white bg-purple rounded-full absolute top-1.5 bottom-1.5 right-1.5 px-3 py-1 flex items-center">
+              <button className="text-white bg-primary-500 rounded-full absolute top-1.5 bottom-1.5 right-1.5 px-3 py-1 flex items-center">
                 apply
               </button>
             </div>
@@ -89,7 +89,7 @@ export default function Home() {
         </div>
       </div>
       <div className="fixed bottom-0 left-0 w-full  px-5 pb-6 pt-3">
-        <button className="bg-purple hover:bg-blue-700 w-full text-white font-bold py-4 px-4  rounded-full">
+        <button className="bg-primary-500 hover:bg-blue-700 w-full text-white font-bold py-4 px-4  rounded-full">
           Continue
         </button>
       </div>

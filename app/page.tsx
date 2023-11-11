@@ -21,7 +21,7 @@ export default function Home() {
           </div>
           <div className="my-3 absolute z-10 w-5/6 -bottom-2 left-0 right-0 mx-auto">
             <div className="relative w-full ">
-              <div className="absolute top-2 left-0 flex items-center ml-3 pointer-events-none rounded-full bg-[#524EB7] p-1.5">
+              <div className="absolute top-2 left-0 flex items-center ml-3 pointer-events-none rounded-full bg-primary-500 p-1.5">
                 <SearchIcon className="h-5 w-5 text-white" />
               </div>
               <input
@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </div>
         <div className="h-[53%]">
-          <div className="bg-indigo-200 -mt-7 h-full w-full relative border rounded-bl-[100px] rounded-br-[100px] ">
+          <div className="bg-primary-200 -mt-7 h-full w-full relative border rounded-bl-[100px] rounded-br-[100px] ">
             <div className="h-auto mt-10">
               <div className="flex flex-col flex-wrap justify-center items-center">
                 <div className="h-52	w-52 flex items-center justify-center">
@@ -50,8 +50,8 @@ export default function Home() {
                 <p className="text-xl">Casual shirts </p>
               </div>
             </div>
-            <div className="absolute -bottom-5 left-36 rounded-full bg-indigo-200 p-3">
-              <div className="rounded-full bg-[#524EB7] p-3">
+            <div className="absolute -bottom-5 left-36 rounded-full bg-primary-200 p-3">
+              <div className="rounded-full bg-primary-500 p-3">
                 <TbSmartHome size="2rem" className="text-white" />
               </div>
             </div>

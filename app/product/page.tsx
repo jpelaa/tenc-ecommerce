@@ -37,8 +37,8 @@ export default function Home() {
                   key={data}
                   className={`border-[0.5px] border-gray-300 rounded-[50%] px-4 py-2 ${
                     selectedSize === data
-                      ? "bg-purple text-white"
-                      : "bg-white text-purple"
+                      ? "bg-primary-500 text-white"
+                      : "bg-white text-primary-500"
                   }`}
                 >
                   {data}
@@ -50,7 +50,7 @@ export default function Home() {
             <div className="w-1/3 flex items-center justify-evenly">
               <div
                 onClick={() => setSelectedProduct(selectedProduct + 1)}
-                className={`border-[0.5px] border-gray-300 rounded-[50%] px-1 py-1  bg-purple text-white
+                className={`border-[0.5px] border-gray-300 rounded-[50%] px-1 py-1  bg-primary-500 text-white
                 `}
               >
                 <PlusIcon className="h-4 w-4" />
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
       </div>
       <div className="fixed bottom-0 left-0 w-full  px-5 pb-6 pt-3">
-        <button className="bg-purple hover:bg-blue-700 w-full text-white font-bold py-4 px-4  rounded-full">
+        <button className="bg-primary-500 hover:bg-blue-700 w-full text-white font-bold py-4 px-4  rounded-full">
           Add to cart
         </button>
       </div>

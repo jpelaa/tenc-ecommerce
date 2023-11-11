@@ -35,7 +35,7 @@ export default function Home() {
                   <div className="flex">
                     <div
                       onClick={() => setSelectedProduct(selectedProduct + 1)}
-                      className={`border-[0.5px] border-gray-300 rounded-[50%] p-1 mx-1  bg-purple text-white
+                      className={`border-[0.5px] border-gray-300 rounded-[50%] p-1 mx-1  bg-primary-500 text-white
                 `}
                     >
                       <PlusIcon className="h-3 w-3" />
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
       </div>
       <div className="fixed bottom-0 left-0 w-full  px-5 pb-6 pt-3">
-        <button className="bg-purple hover:bg-blue-700 w-full text-white font-bold py-4 px-4  rounded-full">
+        <button className="bg-primary-500 hover:bg-blue-700 w-full text-white font-bold py-4 px-4  rounded-full">
           Checkout
         </button>
       </div>
