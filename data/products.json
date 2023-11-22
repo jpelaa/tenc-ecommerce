@@ -1,0 +1,32 @@
+[
+  {
+    "image": "PR001",
+    "name": "Printed Black & White Shirt",
+    "description": "",
+    "availableSizes": ["M", "L"]
+  },
+  {
+    "image": "POP001",
+    "name": "Ridge Grey Shirt",
+    "description": "",
+    "availableSizes": ["M", "L"]
+  },
+  {
+    "image": "PL004",
+    "name": "Dobby Green Shirt",
+    "description": "",
+    "availableSizes": ["M", "L"]
+  },
+  {
+    "image": "CHK003",
+    "name": "Brushed Red & Black Checked Shirt",
+    "description": "",
+    "availableSizes": ["M", "L"]
+  },
+  {
+    "image": "CHK002",
+    "name": "Brushed White & Black Checked Shirt",
+    "description": "",
+    "availableSizes": ["M", "L"]
+  }
+]
